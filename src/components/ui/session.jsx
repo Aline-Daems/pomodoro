@@ -6,7 +6,7 @@ import {
     BreakSessionTime,
     PlusMinusButtonContainer,
     PlusMinusButton,
-} from "../ui/breaksession";
+} from "./ui/breaksession";
 
 const Session = ({
     sessionLength,
