@@ -61,7 +61,7 @@ function App() {
         } else {
             const newIntervalId = setInterval(() => {
                 setTimeLeft(prevTimleft => prevTimleft - 1);
-            }, 100);
+            }, 1000);
             setIntervalId(newIntervalId);
         }
     };
