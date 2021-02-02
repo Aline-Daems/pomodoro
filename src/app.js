@@ -1,8 +1,8 @@
 import React, {useState, useEffect, useRef} from "react";
-import "style.css";
-import Break from "./src/components/break";
-import Session from "./src/components/session";
-import TimeLeft from "./src/components/time-left";
+import "./style.css";
+import Break from "./components/break";
+import Session from "./components/session";
+import TimeLeft from "./components/time-left";
 
 function App() {
     const audioElement = useRef(null);
